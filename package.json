@@ -1,0 +1,45 @@
+{
+  "name": "dsh-think-translate",
+  "description": "Display-layer translation for the DSH web app: thinking chain, task cards, and optional answer text, in 8 target languages (local Ollama / Google / Bing, fail-open)",
+  "version": "1.0.10",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "demo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtdx2001/dsh-think-translate.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "external": [
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mtdx2001/dsh-think-translate#readme",
+  "bugs": {
+    "url": "https://github.com/mtdx2001/dsh-think-translate/issues"
+  }
+}
