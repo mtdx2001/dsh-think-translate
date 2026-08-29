@@ -41,7 +41,7 @@ dsh plugin --profile web add dsh-think-translate
 # 然后重启 web
 
 # 方式二：GitHub
-dsh plugin --profile web add github:UncleK/dsh-think-translate
+dsh plugin --profile web add github:mtdx2001/dsh-think-translate
 
 # 方式三：手动（junction + patch）
 #  1. 链接包到 profile 的 node_modules

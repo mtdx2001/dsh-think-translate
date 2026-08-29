@@ -41,7 +41,7 @@ dsh plugin --profile web add dsh-think-translate
 # dann web neu starten
 
 # Option 2: GitHub
-dsh plugin --profile web add github:UncleK/dsh-think-translate
+dsh plugin --profile web add github:mtdx2001/dsh-think-translate
 
 # Option 3: manuell (Junction + Patch)
 #  1. Paket in das node_modules des Profils verlinken
