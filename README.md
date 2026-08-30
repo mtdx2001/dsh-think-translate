@@ -2,6 +2,8 @@
 
 # 🐋 dsh-think-translate
 
+> **Mirror notice** — This repository mirrors the third-party plugin `dsh-think-translate` (original author: **unclk**, npm: `dsh-think-translate`, original repo: `UncleK/dsh-think-translate`, MIT). This mirror is unaffiliated with the original author and is archived; the original npm package and repo remain the source of truth.
+
 **Languages:** [English](README.md) · [中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
 
 [![npm version](https://img.shields.io/npm/v/dsh-think-translate?color=4D6BFE&label=npm)](https://www.npmjs.com/package/dsh-think-translate)
@@ -93,10 +95,4 @@ self-hosted observer with a **75,353-sentence curated translation memory** (Deep
 a built-in OpenAI-compatible endpoint and a live observer page at `127.0.0.1:18765`.
 Point this plugin's provider at it, or follow its INSTALL.md for the full pipeline
 (1.8B realtime + 7B idle correction, MIT).
-
-## Repository note
-
-This repository is the canonical source. The npm package metadata still points to a legacy
-placeholder address and will be corrected in the next release - treat **this repo** as
-authoritative for source, issues and releases.
 
